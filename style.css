@@ -1,0 +1,26 @@
+h1
+{color : rgb(236, 76, 13); 
+ border : solid; 
+}
+
+.header
+{
+  display: flex;
+  flex-direction: column;                  
+}
+
+.pandaImg
+{
+  border: solid;
+  border-color: yellowgreen;
+  background-image: url("bamboo.png");
+}
+
+.camelImg
+{
+  border: solid;
+  border-color: sandybrown;
+  background-image: url("desert.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
